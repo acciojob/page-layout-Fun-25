@@ -7,7 +7,7 @@ const App = () => {
     <div>
       <PageLayout
         header="Welcome to my website"
-        children="This is the content of my website"
+        children="This is the content of my website."
         footer={`\u00A9 2023 My Website. All rights reserved.`}
       />
     </div>
