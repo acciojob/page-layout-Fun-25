@@ -20,8 +20,8 @@ const PageLayout=({header,children,footer})=>{
   return(
     <div>
       <h1>{header}</h1>
-      <main>{children}</main>
-      <footer>{footer}</footer>
+      <p>{children}</p>
+      <p>{footer}</p>
     </div>
   )
 }
